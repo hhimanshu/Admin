@@ -8,6 +8,7 @@ export default Controller.extend({
     postsController: controller('posts'),
     session: service(),
     ui: service(),
+    config: service(),
 
     availableTypes: readOnly('postsController.availableTypes'),
     selectedType: readOnly('postsController.selectedType'),

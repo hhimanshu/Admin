@@ -51,6 +51,7 @@ export default Controller.extend({
     session: service(),
     store: service(),
     settings: service (),
+    config: service(),
 
     // default values for these are set in `init` and defined in `helpers/reset-query-params`
     queryParams: ['type', 'access', 'author', 'tag', 'order'],
